@@ -30,8 +30,8 @@ console.log(filterNumbersGreaterThanFive(numbers)); // 預期輸出: [8, 10, 7]
 3. JavaScript: 重構
    
 問題：重構這段程式碼並說明原因
-=> 如果傳入是firstName先開始, 空白字串會加入firstName，再來連接lastName
-=> 最後結果產出firstName+lastName
+>>如果傳入是firstName先開始, 空白字串會加入firstName，再來連接lastName
+>>最後結果產出firstName+lastName
 
 ```
 function formatName(firstName, lastName) {
@@ -49,7 +49,7 @@ function formatName(firstName, lastName) {
 }
 ```
 
-4. React: 條件渲染
+1. React: 條件渲染
 問題：在React中，如何根據條件渲染兩種不同的內容？
 
 範例：
@@ -64,13 +64,13 @@ function ConditionalRendering({ isLoggedIn }) {
 5. React: 組件
 問題：使用React創建一個簡單的計數器組件，具有增加和減少計數的按鈕。
 
+#### Install node_modules
 ```
-install node_modules
 npm install 
 ```
 
+#### Run the server
 ```
-Run the server
 npm run dev
 ```
 
